@@ -18,6 +18,7 @@
 		5B2C63162317DE5F00E9B1F6 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C63152317DE5F00E9B1F6 /* SessionStore.swift */; };
 		5B2C63192317E03A00E9B1F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C63182317E03A00E9B1F6 /* User.swift */; };
 		5B2C631B2317E74900E9B1F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C631A2317E74900E9B1F6 /* ContentView.swift */; };
+		5BD60A3C231CFF9B0032316B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BD60A3B231CFF9B0032316B /* GoogleService-Info.plist */; };
 		D9B15FEF27032E043B44AFEA /* Pods_LoginSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BB44F49322937975AB3B4A /* Pods_LoginSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		5B2C63152317DE5F00E9B1F6 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		5B2C63182317E03A00E9B1F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5B2C631A2317E74900E9B1F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BD60A3B231CFF9B0032316B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7D6930D4D4030B8486B6D4B6 /* Pods_LoginSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E75B3D04339AEBF547641BA /* Pods-LoginSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginSwiftUITests/Pods-LoginSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		90ABD402A4346A7C0B1FC135 /* Pods-LoginSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-LoginSwiftUITests/Pods-LoginSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				5B2C62F32317D20800E9B1F6 /* SceneDelegate.swift */,
 				5B2C62F72317D20900E9B1F6 /* Assets.xcassets */,
 				5B2C62FC2317D20900E9B1F6 /* LaunchScreen.storyboard */,
+				5BD60A3B231CFF9B0032316B /* GoogleService-Info.plist */,
 				5B2C62FF2317D20900E9B1F6 /* Info.plist */,
 				5B2C62F92317D20900E9B1F6 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2C62FE2317D20900E9B1F6 /* LaunchScreen.storyboard in Resources */,
+				5BD60A3C231CFF9B0032316B /* GoogleService-Info.plist in Resources */,
 				5B2C62FB2317D20900E9B1F6 /* Preview Assets.xcassets in Resources */,
 				5B2C62F82317D20900E9B1F6 /* Assets.xcassets in Resources */,
 			);

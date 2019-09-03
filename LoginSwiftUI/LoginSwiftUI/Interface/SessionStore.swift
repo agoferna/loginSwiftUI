@@ -8,6 +8,7 @@
 
 import SwiftUI
 import Firebase
+
 import Combine
 
 class SessionStore: BindableObject {
@@ -15,7 +16,7 @@ class SessionStore: BindableObject {
         var didChange = PassthroughSubject<SessionStore, Never>()
         var session: User? { didSet { self.didChange.send(self) }}
         var handle: AuthStateDidChangeListenerHandle?
-        
+
         func listen () {
             // monitor authentication changes using firebase
             handle = Auth.auth().addStateDidChangeListener { (auth, user) in

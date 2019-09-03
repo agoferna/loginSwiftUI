@@ -18,11 +18,11 @@ struct ContentView : View {
     
     var body: some View {
         Group {
-            if (session.session != nil) {
-                Text("Hello user!")
-            } else {
+//            if (session.session != nil) {
+//                Text("Hello user!")
+//            } else {
                 LoginView()
-            }
+//            }
             }.onAppear(perform: getUser)
     }
 }
